@@ -1,0 +1,38 @@
+{
+  "name": "generator-test",
+  "version": "0.0.1",
+  "description": "LOC generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+  	"type": "git",
+  	"url": "git+https://github.com/renowan/generator-renowan-test.git"
+  },
+  "author": {
+    "name": "Renowan",
+    "email": "renowan@renowan.com",
+    "url": "https://github.com/renowan"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^3.10.1",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
